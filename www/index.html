@@ -40,60 +40,9 @@
       <!-- This looks like a good place for an edge include. -->
 
       <section>
-        <!-- Maybe an image or two will go here...? -->
-      </section>
-
-      <!-- This looks like another good place for an edge include! -->
-    </main>
-
-    <!-- TODO: Extra credit: Why not add a global branded footer to the site? -->
-    <netlify-edge-include href="https://compose-challenge.netlify.app/partials/footer"></netlify-edge-include>
-    <netlify-edge-include href="https://compose-challenge.netlify.app/partials/add-image-cdn"></netlify-edge-include><!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netlify Compose Code Challenge</title>
-    <link
-      rel="preload"
-      href="https://example-styles.netlify.app/fonts/PacaembuVar-latin.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      href="https://example-styles.netlify.app/fonts/MulishVar-latin.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
-    />
-    <link rel="stylesheet" href="https://example-styles.netlify.app/styles.css" />
-    <link rel="stylesheet" href="/styles.css" />
-    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
-
-    <!-- TODO: Add your name to enter the prize draw -->
-    <!-- <meta name="author" content="Estelle Weyl"> -->
-
-    <!-- TODO: Add your email and we'll show an avatar in the leaderboard. (And
-    you'll get more points!) -->
-    <!-- <meta name="email" content="estelle@weyl.org"> -->
-  </head>
-
-  <body>
-    <partial name="header"></partial>
-
-    <main>
-      <partial name="step-1"></partial>
-      <partial name="step-2"></partial>
-
-      <!-- This looks like a good place for an edge include. -->
-
-      <section>
-        
-    <img src="/images/bay-bridge.jpg" alt="A photo of the Bay Bridge in San Francisco local" />
-    <img src="/.netlify/images/?url=/images/bay-bridge.jpg" alt="A photo of the Bay Bridge in San Francisco" />
-    <img src="/.netlify/images/?url=/images/bay-bridge.jpg&width=200" alt="A photo of the Bay Bridge in San Francisco" />
+        <img src="/images/bay-bridge.jpg" alt="A photo of the Bay Bridge in San Francisco local" />
+        <img src="/.netlify/images/?url=/images/bay-bridge.jpg" alt="A photo of the Bay Bridge in San Francisco" />
+        <img src="/.netlify/images/?url=/images/bay-bridge.jpg&width=200" alt="A photo of the Bay Bridge in San Francisco" />
       </section>
 
       <!-- This looks like another good place for an edge include! -->
@@ -102,9 +51,6 @@
     <!-- TODO: Extra credit: Why not add a global branded footer to the site? -->
     <netlify-edge-include href="https://compose-challenge.netlify.app/partials/footer"></netlify-edge-include>
     <netlify-edge-include href="https://compose-challenge.netlify.app/partials/add-image-cdn"></netlify-edge-include>
-    
-  </body>
-</html>
 
   </body>
 </html>
